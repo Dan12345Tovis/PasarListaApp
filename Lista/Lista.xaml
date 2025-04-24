@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lista.Lista"
+             Title="Lista" 
+             BackgroundColor="#FFFFFF">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <Label Text="Alumno:"
+               Grid.Column="1"  
+               Grid.ColumnSpan="5"
+               Grid.Row="0"
+               TextColor="#A21E20" FontSize="Title"
+               VerticalTextAlignment="End"/>
+        <Frame BorderColor="White"
+          BackgroundColor="White"
+          CornerRadius="0"
+          Padding="10"
+          Grid.Column="1" 
+          Grid.ColumnSpan="2"
+          Grid.Row="3"
+          Margin="0,0,0,10">
+
+            <Button Text="0" Clicked="Button_Clicked"
+                    BackgroundColor="#A21E20"
+                    TextColor="White"
+                    />
+
+
+
+        </Frame>
+        <Frame BorderColor="White"
+          BackgroundColor="White"
+          CornerRadius="10"
+          Padding="10"
+          Grid.Column="6"
+          Grid.ColumnSpan="2"
+          Grid.Row="3"
+          Margin="0,0,0,10">
+
+            <Button Text="->" Clicked="Button_Clicked" BackgroundColor="#A21E20"
+                    TextColor="White"
+                    FontSize="40">
+
+            </Button>
+        </Frame>
+        
+        
+
+
+
+
+
+        <Frame BorderColor="White"
+             BackgroundColor="White"
+             CornerRadius="10"
+             HasShadow="True"
+             Padding="10"
+             Grid.Column="1" 
+             Grid.ColumnSpan="7"
+             Grid.Row="1"
+             Margin="0,0,0,10"
+            
+             >
+
+
+            <Label
+               Text="Daniel Perez Herrera"
+               x:Name="label_nombre" 
+               TextColor="Black"
+               VerticalTextAlignment="Center"
+              />
+
+
+
+        </Frame>
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+        <Button 
+              Text="Guardar" 
+              HorizontalOptions="FillAndExpand"
+              Grid.Column="3"  Grid.ColumnSpan="3" Grid.Row="3"
+              Margin="0,15,0,20"
+              TextColor="White"
+              BackgroundColor="#A21E20">
+
+
+
+        </Button>
+
+
+        <Button 
+           Text="Guardar"     
+           HorizontalOptions="FillAndExpand"
+           Grid.Column="3"  Grid.ColumnSpan="3" Grid.Row="3"
+           Margin="0,15,0,20"
+           TextColor="White"
+           Clicked="Button_Clicked_1"
+           x:Name="btnGuardar"
+           BackgroundColor="#A21E20"
+            >
+           
+        </Button>
+
+        <Button 
+           Text="PDf"     
+           HorizontalOptions="FillAndExpand"
+           Grid.Column="2"  Grid.ColumnSpan="5" Grid.Row="5"
+           Margin="0,15,0,20"
+           TextColor="White"
+           BackgroundColor="#A21E20"> 
+          
+        </Button>
+
+        <Label Text="Asistencia" 
+               Grid.Column="2"  Grid.ColumnSpan="5" Grid.Row="2"
+               
+               VerticalTextAlignment="Center"
+               
+               />
+        <Label Text="Palomita"
+                Grid.Column="3"  
+                Grid.ColumnSpan="5"
+                Grid.Row="2"
+                TextColor="Green" FontSize="Body"
+               VerticalTextAlignment="Center"/>
+        
+        
+        <CheckBox x:Name="miCheckBox" 
+                   IsChecked="false" 
+                   Grid.Column="3"  Grid.ColumnSpan="5" Grid.Row="2"
+                   Color="Green"
+                   Scale="2" 
+                  
+                    />
+        
+        
+        <Label x:Name="resultadoLabel" />
+
+
+    </Grid>
+
+</ContentPage>

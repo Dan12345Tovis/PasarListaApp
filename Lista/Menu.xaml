@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lista.Menu"
+             Title="Menu"
+             BackgroundColor="#FFFFFF">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+
+
+        <Label Text="Seleccione un grupo"
+                Grid.Column="1" 
+                Grid.ColumnSpan="3"
+                Grid.Row="0"
+                Grid.RowSpan="1"
+                TextColor="#A21E20"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                FontSize="Medium"/>
+
+
+        <Frame BorderColor="LightGray"
+            BackgroundColor="White"
+            CornerRadius="10"
+            HasShadow="True"
+            Padding="10"
+            Grid.Column="1" 
+            Grid.ColumnSpan="3"
+            Grid.Row="2"
+            Margin="0,0,0,10"
+           
+            >
+
+
+            <Picker x:Name="Picker"  Title="Grupo" TextColor="Black"/>
+
+
+
+
+
+        </Frame>
+
+
+
+
+        <Button 
+             Text="Aceptar" 
+             HorizontalOptions="FillAndExpand"
+             Grid.Column="1"  Grid.ColumnSpan="3"
+             Grid.Row="3"
+             Margin="0,15,0,30"
+             BackgroundColor="#A21E20"
+             Clicked="Button_Clicked"
+             TextColor="White"
+             
+             >
+
+
+
+        </Button>
+
+
+
+
+    </Grid>
+</ContentPage>

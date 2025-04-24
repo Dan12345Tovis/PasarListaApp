@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lista
+build_property.ProjectDir = C:\Users\dangu\source\repos\Lista\Lista\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/dangu/source/repos/Lista/Lista/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/Inicio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.Inicio.xaml
+build_metadata.AdditionalFiles.TargetPath = Inicio.xaml
+build_metadata.AdditionalFiles.RelativePath = Inicio.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/Lista.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.Lista.xaml
+build_metadata.AdditionalFiles.TargetPath = Lista.xaml
+build_metadata.AdditionalFiles.RelativePath = Lista.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Menu.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/PasarListaAlumnos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.PasarListaAlumnos.xaml
+build_metadata.AdditionalFiles.TargetPath = PasarListaAlumnos.xaml
+build_metadata.AdditionalFiles.RelativePath = PasarListaAlumnos.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/Pase.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.Pase.xaml
+build_metadata.AdditionalFiles.TargetPath = Pase.xaml
+build_metadata.AdditionalFiles.RelativePath = Pase.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/dangu/source/repos/Lista/Lista/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lista.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
