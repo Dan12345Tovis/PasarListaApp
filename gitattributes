@@ -1,0 +1,11 @@
+# Forzar que se reconozca C# como lenguaje principal
+*.cs linguist-language=C#
+*.xaml linguist-language=XML
+
+# Ignorar archivos que confunden a GitHub Linguist
+*.java linguist-detectable=false
+*.kt linguist-detectable=false
+*.ll linguist-detectable=false
+*.bc linguist-detectable=false
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
